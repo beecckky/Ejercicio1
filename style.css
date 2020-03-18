@@ -6,12 +6,22 @@ html{
 
 body{
 	background: url(background.jpg) no-repeat center center fixed;
-	background-size: cover; 
-	    
+	background-size: cover; 	    
+
+}
+
+#main{ /*Selector de ID*/
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 12px;
+	background: rgba(230,230,250,0.1); /*Red, Green, Blue, Alpha*/
 }
 
 h1{
-
+color: #4B0082; /*Hex color, Adobe color*/
+text-transform: uppercase;
+font-size: 64px;
 }
 
 p{
@@ -19,5 +29,25 @@ p{
 }
 
 img{
+}
+	.tagline{
+
+	}
+	.article1{
+		width: 33%;
+		display: inline-block;
+	}
+
+	.article2{
+		width: 33%;
+		display: inline-block;
+	}
+
+	.article3{
+		width: 33%;
+		display: inline-block;
+	}
 
 }	
+section {
+	}
