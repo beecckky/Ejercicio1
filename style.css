@@ -1,7 +1,7 @@
 html{
 	margin: 0;
 	padding: 0;
-    font-family: sans-serif; 
+    font-family: "Spicy Rice"; 
 }
 
 body{
@@ -24,13 +24,20 @@ text-transform: uppercase;
 font-size: 64px;
 }
 
-p{
+h2{
+color: #4B0082; /*Hex color, Adobe color*/
+font-size: 16px
+}
 
+p{
+	color: #4B0082;
+	font-size: 16px;
 }
 
 img{
 	width: 100%;
 	max-width: 100%;
+	border-radius: 50%;
 }
 	.tagline{
 
